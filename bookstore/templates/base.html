@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css" />
+    <title>{% block title %}Bookstore{% endblock %}</title>
+  </head>
+
+  <body>
+    <header id="overview" class="head">
+      <div class="container">
+        <h1>HackerHires Bookstore</h1>
+          <p class="lead">Welcome to our bookstore.</p>
+      </div>
+    </header>
+
+    <div class="container">
+      <div id="content">
+        {% block content %}{% endblock %}
+      </div>
+    </div>
+  </body>
+
+</html>
