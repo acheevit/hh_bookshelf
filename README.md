@@ -23,13 +23,19 @@ Apparntly, there is a problem in our bookshelf: one book can only have one
 author which is absolutely not reasonable. Fix this problem and try to use tag
 or filter to make code clean and easy to read.
 
-### Real-time search
+### Only available to your country
 
-Instead of requiring the user to click "Search," results should appear as they type.
+Consider our bookshelf can only show to users in your country, an error
+page will be showed to others. How to do this?
 
-### Web service swap
+### New book form
 
-If Yahoo! suddenly decides to shut off their music search service and we had to switch to another data source, how would you restructure our code?
+There are always good books we don't have, so we'd like to have a form
+provided to users where they can tell us new books information.
+We also need to review this information and add them to our bookshelf if the
+information is right. You can write review page youself or use Admin interface in Django, you decide.
+Security problems may exist because we will expose form to anonymous users. 
+How to avoid it?
 
 ## How to stand out
  - Improve UX and UI as mush as you can
