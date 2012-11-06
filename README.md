@@ -1,6 +1,6 @@
 # Bookshelf
 
-**Bookshelf** is a place show some popular books.  At the moment, the
+**Bookshelf** is a place to show some popular books.  At the moment, the
 functionality is basic and not very appealing. Your main goal is to 
 add features and improve UX. 
 
