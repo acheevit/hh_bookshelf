@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load show_authors %}
 
 {% block title %}Books{% endblock %}
 
@@ -17,7 +18,7 @@
 			<tr>
 				<td>{{ forloop.counter }}</td>
 				<td>{{ book.title }}</td>
-				<td>{{ book.author.name }}</td>
+				<td>{% show_authors book %}</td>
 				<td>{{ book.price }}</td>
 			</tr>
 			{% endfor %}
